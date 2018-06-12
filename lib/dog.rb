@@ -2,6 +2,8 @@ class Dog
 
   attr_accessor :name
 
+  #initializes every instance of dog.new with a name
+
   def initilaize(name)
     @name = name
     @@all << self #adds each instance of dog to @@all on instantiation
