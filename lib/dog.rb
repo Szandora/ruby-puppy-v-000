@@ -4,7 +4,7 @@ class Dog
 
   def initilaize(name)
     @name = name
-    @@all << self
+    @@all << self #adds each instance of dog to @@all on instantiation
   end
   #keeps track of all dog instances
   @@all = []
